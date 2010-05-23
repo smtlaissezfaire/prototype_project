@@ -1,5 +1,5 @@
 
-Dir.glob(File.dirname(__FILE__) + "/rake_tasks/**/**").each do |file|
+Dir.glob(File.dirname(__FILE__) + "/rake_tasks/**/**.rb").each do |file|
   require file
 end
 
