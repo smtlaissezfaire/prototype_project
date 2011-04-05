@@ -1,6 +1,8 @@
 GEM
+  remote: http://rubygems.org/
   specs:
     diff-lcs (1.1.2)
+    facets (2.9.1)
     rspec (2.0.0)
       rspec-core (= 2.0.0)
       rspec-expectations (= 2.0.0)
@@ -11,9 +13,12 @@ GEM
     rspec-mocks (2.0.0)
       rspec-core (= 2.0.0)
       rspec-expectations (= 2.0.0)
+    using (0.1.5)
+      facets
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   rspec (>= 2.0.0)
+  using (>= 0.1.5)
